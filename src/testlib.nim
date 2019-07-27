@@ -17,6 +17,6 @@ type
 proc doTheThing*(): int {.header: test_header.}
 
 # import the function by symbol name
-proc sumThinger*(t: ptr Thinger): int {.importc: "sumThinger".}
+proc sumThinger*(t: ptr Thinger): int {.header: test_header, importc: "sumThinger".}
 
 
