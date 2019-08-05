@@ -6,4 +6,4 @@ typedef struct thinger {
 } Thinger;
 
 int doTheThing();
-int sumThinger();
+int sumThinger(Thinger*);
